@@ -75,19 +75,19 @@ const Dock = () => {
                         data-tooltip-content={name}
                         data-tooltip-delay-show={150}
                         disabled={!canOpen}
-                        onClick={() => toggeleApp({ id, canOpen })}
+                        onClick={() => toggleApp({ id, canOpen })}
                     >
                         <img
                             src={`/images/${icon}`}
                             alt={name}
                             loading="lazy"
-                            classname={canOpen ? "" : "opacity-60"}
+                            className={canOpen ? "" : "opacity-60"}
                         />
                     </button>
                 </div>
             ))}
 
-            <Tooltip id="dock-tooltip" place="top" classname="tooltip" />
+            <Tooltip id="dock-tooltip" place="top" className="tooltip" />
         </div>
     </section>
     );
