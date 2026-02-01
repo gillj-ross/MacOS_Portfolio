@@ -114,11 +114,11 @@ const techStack = [
   },
   {
     category: "Backend",
-    items: ["Node.js", "Express", "NestJS", "Hono"],
+    items: ["Node.js", "Express", "Java"],
   },
   {
     category: "Database",
-    items: ["MongoDB", "PostgreSQL"],
+    items: ["MongoDB", "PostgreSQL", "SQLite"],
   },
   {
     category: "Dev Tools",
