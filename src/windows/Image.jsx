@@ -17,7 +17,7 @@ const ImgFile = () => {
                 <h2>{name}</h2>
             </div>
 
-            <div className="p-5 bg-white">
+            <div className="preview">
                 {imageUrl ? (
                     <div className="w-full">
                         <img
