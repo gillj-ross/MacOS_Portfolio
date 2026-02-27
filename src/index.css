@@ -368,10 +368,10 @@ body {
     }
 
     .preview {
-      @apply p-2 bg-gray-200 max-h-[70vh];
+      @apply p-2 bg-gray-200 flex items-center justify-center;
 
       img {
-        @apply w-full h-fit object-contain object-center;
+        @apply max-h-[70vh] max-w-full object-contain;
       }
     }
   }
