@@ -46,7 +46,8 @@ const dockApps = [
     id: "safari",
     name: "Articles", // was "Safari"
     icon: "safari.png",
-    canOpen: true,
+    canOpen: false, // no blog posts yet
+    dimmed: false,
   },
   {
     id: "photos",
@@ -185,19 +186,19 @@ const photosLinks = [
 const gallery = [
   {
     id: 1,
-    img: "/images/gal1.png",
+    img: "/images/jude-chris-evans.jpeg",
   },
   {
     id: 2,
-    img: "/images/gal2.png",
+    img: "/images/jude-earbuds.jpeg",
   },
   {
     id: 3,
-    img: "/images/gal3.png",
+    img: "/images/jude-suit.JPG",
   },
   {
     id: 4,
-    img: "/images/gal4.png",
+    img: "/images/jude-christmas.jpeg",
   },
 ];
 
@@ -292,7 +293,7 @@ const WORK_LOCATION = {
             "AI Resume Analyzer is a smart tool that helps you perfect your resume with instant feedback.",
             "Instead of guessing what recruiters want, you get AI-powered insights on keywords, formatting, and overall impact.",
             "Think of it like having a career coach—pointing out strengths, fixing weaknesses, and boosting your chances of landing interviews.",
-            "It's built with Next.js and Tailwind, so it runs fast, looks professional, and works seamlessly on any device.",
+            "It's built with React Router and Tailwind, so it runs fast, looks professional, and works seamlessly on any device.",
           ],
         },
         {
@@ -301,7 +302,7 @@ const WORK_LOCATION = {
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://youtu.be/iYOz165wGkQ?si=R1hs8Legl200m0Cl",
+          href: "https://ai-resume-analyzer-three-kohl.vercel.app/",
           position: "top-20 left-20",
         },
         {
@@ -395,7 +396,7 @@ const ABOUT_LOCATION = {
       kind: "file",
       fileType: "img",
       position: "top-10 left-5",
-      imageUrl: "/images/adrian.jpg",
+      imageUrl: "/images/jude.jpeg",
     },
     {
       id: 2,
@@ -404,17 +405,17 @@ const ABOUT_LOCATION = {
       kind: "file",
       fileType: "img",
       position: "top-28 right-72",
-      imageUrl: "/images/adrian-2.jpg",
+      imageUrl: "/images/jude-2.jpeg",
     },
-    {
-      id: 3,
-      name: "conference-me.png",
-      icon: "/images/image.png",
-      kind: "file",
-      fileType: "img",
-      position: "top-52 left-80",
-      imageUrl: "/images/adrian-3.jpeg",
-    },
+    // {
+    //   id: 3,
+    //   name: "conference-me.png",
+    //   icon: "/images/image.png",
+    //   kind: "file",
+    //   fileType: "img",
+    //   position: "top-52 left-80",
+    //   imageUrl: "/images/adrian-3.jpeg",
+    // },
     {
       id: 4,
       name: "about-me.txt",
@@ -423,12 +424,12 @@ const ABOUT_LOCATION = {
       fileType: "txt",
       position: "top-60 left-5",
       subtitle: "Meet the Developer Behind the Code",
-      image: "/images/adrian.jpg",
+      image: "/images/jude-3.jpeg",
       description: [
-        "Hey! I’m Adrian 👋, a web developer who enjoys building sleek, interactive websites that actually work well.",
-        "I specialize in JavaScript, React, and Next.js—and I love making things feel smooth, fast, and just a little bit delightful.",
-        "I’m big on clean UI, good UX, and writing code that doesn’t need a search party to debug.",
-        "Outside of dev work, you'll find me tweaking layouts at 2AM, sipping overpriced coffee, or impulse-buying gadgets I absolutely convinced myself I needed 😅",
+        "Hey! I’m Jude 👋", 
+        "I'm a software engineering student with a passion for building modern applications, websites, and software that are both functional and enjoyable to use. I love turning ideas into real projects while continuously learning new technologies and sharpening my development skills.",
+        "My primary toolkit includes Java, TypeScript, and React.js, and I enjoy creating clean, responsive, and user-friendly experiences. Whether I'm developing a full-stack application, experimenting with a new framework, or refining an existing project, I'm always looking for ways to write cleaner code and build better software.",
+        "When I'm not coding, you'll probably find me watching wrestling, hitting the gym, or exploring new tech. I'm always looking for opportunities to grow as a developer and take on projects that challenge me to learn something new.",
       ],
     },
   ],

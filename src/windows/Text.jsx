@@ -18,7 +18,7 @@ const TxtFile = () => {
             </div>
 
             <div className="p-5 flex flex-col gap-3">
-                {image && <img src={image} alt={name} className="w-full rounded-lg object-cover" />}
+                {image && <img src={image} alt={name} className="w-1/2 mx-auto rounded-lg object-cover" />}
                 {subtitle && <h3 className="font-semibold text-gray-700">{subtitle}</h3>}
                 {description.map((para, i) => (
                     <p key={i} className="text-sm text-gray-600">{para}</p>
