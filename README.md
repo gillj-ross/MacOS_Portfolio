@@ -6,7 +6,7 @@ A fully interactive, macOS-inspired portfolio website built with React and Vite.
 
 ## Overview
 
-I built this because I was tired of the same old portfolio templates. As a senior in software engineering, I wanted something that actually showed how I think and build — not just a list of bullet points. The macOS desktop metaphor gave me a natural way to organize everything (projects are "files", skills are in the "Terminal", photos in "Photos") while letting me flex some serious frontend muscle along the way.
+I built this because I was tired of the same old portfolio templates. As a software engineering student at MSOE, I wanted something that actually showed how I think and build — not just a list of bullet points. The macOS desktop metaphor gave me a natural way to organize everything (projects are "files", skills are in the "Terminal", photos in "Photos") while letting me flex some serious frontend muscle along the way.
 
 The whole thing is a single-page React app that simulates a windowed desktop environment. Windows open, close, and can be dragged around. There's a dock at the bottom that animates like the real macOS dock. The Finder lets you browse my projects like you'd browse files on your Mac.
 
@@ -14,7 +14,7 @@ The whole thing is a single-page React app that simulates a windowed desktop env
 
 ## Live Demo
 
-> Coming soon — will be deployed to Vercel.
+**[jrgmacosportfolio.vercel.app](https://jrgmacosportfolio.vercel.app)**
 
 ---
 
@@ -204,7 +204,7 @@ npm run lint
 ## Author
 
 **Jude Gill**
-Senior, Software Engineering — Milwaukee School of Engineering
+B.S. Software Engineering — Milwaukee School of Engineering (expected Dec 2027)
 
 - GitHub: [@gillj-ross](https://github.com/gillj-ross)
 - LinkedIn: [jude-gill](https://www.linkedin.com/in/jude-gill/)
