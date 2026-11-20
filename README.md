@@ -16,6 +16,8 @@ The whole thing is a single-page React app that simulates a windowed desktop env
 
 **[jrgmacosportfolio.vercel.app](https://jrgmacosportfolio.vercel.app)**
 
+![The portfolio desktop, with project folders, the menu bar, and the dock](docs/images/desktop.png)
+
 ---
 
 ## Features
