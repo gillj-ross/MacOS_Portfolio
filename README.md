@@ -1,4 +1,4 @@
-# macOS Portfolio
+# MacOS_Portfolio
 
 A fully interactive, macOS-inspired portfolio website built with React and Vite. Instead of a traditional scroll-based layout, this portfolio puts you inside a simulated macOS desktop — complete with a draggable Dock, resizable windows, a Finder file explorer, a Terminal, and more. Every "app" on the desktop is a real portfolio section: projects, resume, contact info, a photo gallery, and a blog reader.
 
