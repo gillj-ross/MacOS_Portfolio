@@ -170,8 +170,8 @@ A multiplayer **JavaFX** desktop implementation of the popular Wordle word game.
 Clone the repo and install dependencies:
 
 ```bash
-git clone https://github.com/gillj-ross/macos-portfolio.git
-cd macos-portfolio
+git clone https://github.com/gillj-ross/MacOS_Portfolio.git
+cd MacOS_Portfolio
 npm install
 ```
 
